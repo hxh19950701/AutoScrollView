@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context="com.hxh19950701.autoscrollview.MainActivity">
+
+	<com.hxh19950701.autoscrollview.AutoScrollView
+		android:id="@+id/asv"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<TextView android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  android:text="
+AutoScrollView
+================
+这个类实现了一个可以自动滚动的ScrollView.
+
+这个类是由 https://github.com/t12x3456/AutoScrollView.git 上的代码修改而来的，它修复了在自动滚动时，用户自行滑动，ScrollView会自动滚回顶部的bug。
+
+若作者不同意我分享源码，请联系 hxh19950701@qq.com 或 hxh19950701@gmail.com ,我会立即删除。
+"
+				  android:textSize="40sp"
+		/>
+	</com.hxh19950701.autoscrollview.AutoScrollView>
+</RelativeLayout>
